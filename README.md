@@ -23,3 +23,10 @@ In case of Prisma error run
 ```
 npx prisma generate
 ```
+
+### Prod
+
+Run command
+
+```
+docker build -f Dockerfile.prod -t products-ms .
